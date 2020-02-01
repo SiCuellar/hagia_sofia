@@ -30,6 +30,7 @@ if __name__ == "__main__":
 
     plt.close("all") # Close all figures
 
+    w=1
     fig, ax = plt.subplots()
     draw_triangles(ax,2,w)
     ax.set_aspect(1.0)

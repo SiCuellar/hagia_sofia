@@ -31,6 +31,12 @@ if __name__ == "__main__":
 
     plt.close("all") # Close all figures
 
+    orig_size = 100.0
+    p = np.array([[0,0],[0,orig_size],[orig_size,orig_size],[orig_size,0],[0,0]])
+    print('Points in original square:')
+    print(p)
+
+
     fig, ax = plt.subplots()
     draw_squares(ax,2,p,.1)
     ax.set_aspect(1.0)
